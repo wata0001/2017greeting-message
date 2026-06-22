@@ -8,6 +8,8 @@ def greet():
         message = 'Hello'
     else:
         message = 'Good evening'
+    message = 'Hello, ' + name + '-san!'
     print(message)
 
-greet()
+
+greet('Inoue')
